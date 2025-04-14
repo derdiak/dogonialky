@@ -3,7 +3,7 @@ from pygame import *
 
 window = display.set_mode((700,500))
 background = transform.scale(image.load('background.png'),(700,500))
-display.set_caption('Догонялки')
+display.set_caption('Catch pacman')
 
 
 sprite_1 = transform.scale(image.load('sprite1.png'),(50,50))
